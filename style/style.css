@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+
+/**** BODY ****/
+
+.container100{
+    height: 100vh;
+    width: 100%;
+    background-color: black ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container90{
+    width: 90%;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: crimson;
+    width: calc((100% / 7) - 2px);
+    height: calc((100% / 5) - 4px);
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.inside-text{
+    background-color: rgba(104, 101, 101, 0.7);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.box i{
+    font-size: 10px;
+    color: white;
+}
