@@ -60,6 +60,18 @@
     color: white;
 }
 
+.outside-elem-box{
+    color: white;
+    justify-content: space-between;
+    top: 0.5rem;
+    right: 1rem;
+}
+.outside-elem-box p{
+    padding: 0.5rem;
+    background-color: rgb(74,74,74);
+    margin-left: 4px;
+}
+
 /*** FOOTER ***/
 
 footer{
@@ -115,6 +127,8 @@ footer{
     justify-content: center;
     align-items: center;
     color: red;
+    background-color: rgb(74, 74, 74);
 }
+
 
 
